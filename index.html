@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TIKTAKPE</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+
+<body>
+
+    <!-- ================================= Loan Request Website ===================================
+         ====================================== 09/12/2022 ======================================== -->
+
+    <section id="bob-main-section">
+
+        <!-- ========================== First Part ================================ -->
+
+        <h1 class="bob_main_section_title">WHAT IS THE VALUE OF FINANCE YOU WISH TO LOAN?</h1>
+        <div class="bob-loan-request-steps" id="bob-loan-request-steps_first_part">
+            <form class="bob-loan-request-multiple-steps-form bob_loan_request_multiple_steps_form_first_part">
+                <div class="bob_loan_amount_range_title">Loan Amount</div>
+                <div class="bob_slidecontainer">
+                    <div class="bob_range_slider_button bob_range_decrement">
+                        <img src="assets/images/icon-decrease.svg" alt="">
+                    </div>
+                    <input type="range" min="1000000" max="5000000000" value="1000000" step="500" class="bob_range_slider" id="bob_myRange">
+                    <div class="bob_range_slider_button bob_range_increment">
+                        <img src="assets/images/icon-increase.svg" alt="">
+                    </div>
+                </div>
+                <h2 class="bob_loan_amount_range_price">
+                    <span>$</span><span id="bob_demo"></span>
+                </h2>
+
+                <button type="submit" class="start_your_application">Send A Loan Request</button>
+            </form>
+
+            <h2 class="bob_our_quotes">Get a business/project loan with an interest as low as 3% yearly interest rate</h2>
+            <ul class="bob_Less_than_perfect">
+                <li>100% online application</li>
+                    <li>No Hidden Charges</li>
+            </ul>    
+
+            <div class="bob-loan-request-footer">
+                <div class="bob-loan-request-footer-left-img">
+                    <img src="assets/images/feefoplatinum-2022.png" alt="">
+                </div>
+                <div class="bob-loan-request-footer-right-img">
+                    <img src="assets/images/rating-trustpilot.png" alt="">
+                </div>
+            </div>
+        </div>
+
+        <!-- ========================== Second Part ================================ -->
+
+        <div class="bob-loan-request-steps" id="bob-loan-request-steps_second_part">
+            <div class="bob-progress-container" data-percentage='10'>
+                <div class="bob-progress"></div>
+                <div class="bob-percentage">0%</div>
+            </div>
+
+            <!-- ============================ Loan Request Website ===================================
+         ====================================== First Step ========================================
+         ====================================== 09/12/2022 ======================================== -->
+
+            <div id="bob-loan-request-first-step" class="bob-loan-request-multiple-steps bob-step-1">
+                <ul>
+                    <li>Applicants must be over 18 years old</li>
+                    <li>Project Loan tenure maximum of 10 years</li>
+                </ul>
+                <form class="bob-loan-request-multiple-steps-form" method="post" action="">
+                    <div class="bob-loan-request-multiple-steps-form-content">
+                        <h2>How much would you like to borrow?</h2>
+                        <p>Please confirm the amount you'd like to borrow.</p>
+                    </div>
+                    <div class="bob-loan-request-multiple-steps-form-input-field">
+                        <label for=""></label>
+                        <div class="bob-loan-request-years-box-parent bob-loan-request-years-box-parent6">
+                            <div>
+                                <label class="bob_input_box_fields6" for="first_yes">Yes</label>
+                                <input id="first_yes" type="radio" value="Yes" readonly class="bob-required">
+                            </div>
+                            <div>
+                                <label class="bob_input_box_fields6" for="first_no">No</label>
+                                <input id="first_no" type="radio" value="No" readonly class="bob-required">
+                            </div>
+                        </div>
+                    </div>
+                    <button type="submit" class="bob-next-btn" data-step="1">Next</button>
+                </form>
+            </div>
+
+            <!-- ============================= Loan Request Website ===================================
+         ===================================== Second Step ========================================
+         ====================================== 09/12/2022 ======================================== -->
+
+            <div id="bob-loan-request-second-step" class=" bob-loan-request-multiple-steps bob-step-2">
+                <form class="bob-loan-request-multiple-steps-form">
+                    <div class="bob-loan-request-multiple-steps-form-content">
+                        <h2>Great, let's get started...</h2>
+                        <p>Please enter your name.</p>
+                    </div>
+                    <div class="bob-loan-request-multiple-steps-form-input-field">
+                        <label for="">Title</label>
+                        <div class="select-tag-parent">
+                            <select name="" id="" class="second-step-field bob-required">
+                                <option value="">- Please Select -</option>
+                                <option value="">Mr</option>
+                                <option value="">Dr</option>
+                                <option value="">Miss</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="bob-loan-request-multiple-steps-form-input-field">
+                        <label for="" class="bob_question_mark">First Name <span class="bob_tooltip_div">Hi nice to meet you</span></label>
+                        <input type="text" class="second-step-field bob-required">
+                    </div>
+                    <div class="bob-loan-request-multiple-steps-form-input-field">
+                        <label for="">Surname</label>
+                        <input type="text" class="second-step-field bob-required"> 
+                    </div>
+                    <button type="submit" class="bob-next-btn" data-step="2">Next</button>
+                </form>
+            </div>
+
+            <!-- ============================= Loan Request Website ===================================
+         ===================================== Third Step ========================================
+         ====================================== 09/12/2022 ======================================== -->
+
+            <div id="bob-loan-request-third-step" class=" bob-loan-request-multiple-steps bob-step-3">
+                <form class="bob-loan-request-multiple-steps-form">
+                    <div class="bob-loan-request-multiple-steps-form-content">
+                        <h2>Tell us about your loan.</h2>
+                        <p class="bob_question_mark">What will you use this money for? <span class="bob_tooltip_div">Loans are not available for business use, gambling and illegal purposes. </span></p>
+                    </div>
+
+                    <div class="bob-loan-request-multiple-steps-form-input-box-parent">
+                        <div class="bob-loan-request-multiple-steps-form-input-box-child bob_input_box_fields bob_please_specify_click_hide">
+                            <input type="radio" name="bob_about_loan" class="third-step-field bob-required" value="Buying a Car" id="buying_a_car">
+
+                            <label for="buying_a_car">
+                                <div class="bob-loan-request-multiple-steps-form-input-box-img-parent">
+                                    <img src="assets/images/real-state-black.png" alt="">
+                                    <img src="assets/images/real-state-white.png" alt="">
+                                </div>
+                                Real estate development
+                            </label>
+                        </div>
+                        <div class="bob-loan-request-multiple-steps-form-input-box-child bob_input_box_fields bob_please_specify_click_hide">
+                            <input type="radio" name="bob_about_loan" class="third-step-field bob-required" value="Debt Consolidation" id="debt-consolidation">
+                            <label for="debt-consolidation">
+                                <div class="bob-loan-request-multiple-steps-form-input-box-img-parent">
+                                    <img src="assets/images/solar-energy-black.png" alt="">
+                                    <img src="assets/images/solar-energy-white.png" alt="">
+                                </div>
+                                Solar/Energy project
+                            </label>
+                        </div>
+                        <div class="bob-loan-request-multiple-steps-form-input-box-child bob_input_box_fields bob_please_specify_click_hide">
+                            <input type="radio" name="bob_about_loan" class="third-step-field bob-required" value="Home Improvements" id="home_improvements">
+                            <label for="home_improvements">
+                                <div class="bob-loan-request-multiple-steps-form-input-box-img-parent">
+                                    <img src="assets/images/aviation-black.png" alt="">
+                                    <img src="assets/images/aviation-white.png" alt="">
+                                </div>
+                                Aviation Project
+                            </label>
+                        </div>
+                        <div class="bob-loan-request-multiple-steps-form-input-box-child bob_input_box_fields bob_please_specify_click_hide">
+                            <input type="radio" name="bob_about_loan" class="third-step-field bob-required" value="Short Term Need For Cash" id="short_term">
+                            <label for="short_term">
+                                <div class="bob-loan-request-multiple-steps-form-input-box-img-parent">
+                                    <img src="assets/images/healthcare-black.png" alt="">
+                                    <img src="assets/images/healthcare-white.png" alt="">
+                                </div>
+                                Healthcare Project
+                            </label>
+                        </div>
+                        <div class="bob-loan-request-multiple-steps-form-input-box-child bob_input_box_fields bob_please_specify_click_hide">
+                            <input type="radio" name="bob_about_loan" class="third-step-field bob-required" value="Wedding" id="wedding">
+                            <label for="wedding">
+                                <div class="bob-loan-request-multiple-steps-form-input-box-img-parent">
+                                    <img src="assets/images/lease-black.png" alt="">
+                                    <img src="assets/images/lease-white.png" alt="">
+                                </div>
+                                Leased BG/SBLC
+                            </label>
+                        </div>
+                        <div class="bob-loan-request-multiple-steps-form-input-box-child bob_input_box_fields bob_please_specify_click">
+                            <input type="radio" name="bob_about_loan" class="third-step-field bob-required" value="Other" id="other">
+                            <label for="other">
+                                <div class="bob-loan-request-multiple-steps-form-input-box-img-parent">
+                                    <img src="assets/images/other-black.png" alt="">
+                                    <img src="assets/images/other-white.png" alt="">
+                                </div>
+                                Other
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="bob-loan-request-multiple-steps-form-input-field bob_please_specify">
+                        <label for="">Please Specify</label>
+                        <input type="text">
+                    </div>
+                    <div class="bob-third-error-msg">
+                    </div>
+                    <button type="submit" class="bob-next-btn" data-step="3">Next</button>
+                </form>
+            </div>
+
+            <!-- ============================= Loan Request Website ===================================
+         ===================================== Fourth Step ========================================
+         ====================================== 09/12/2022 ======================================== -->
+
+            <div id="bob-loan-request-fourth-step" class=" bob-loan-request-multiple-steps bob-step-4">
+                <form class="bob-loan-request-multiple-steps-form">
+                    <div class="bob-loan-request-multiple-steps-form-content">
+                        <h2>Tell us about your loan.</h2>
+                        <p class="bob_question_mark">How long do you want to borrow it for? <span class="bob_tooltip_div">Each loan has a minimum and maximum term over which you pay back the loan. The longer the term, the more interest you will pay. 
+                        </span></p>
+                    </div>
+                    <div class="bob-loan-request-years-box-parent">
+                        <div>
+                            <label for="one_year" class="bob_input_box_fields2">1 year</label>
+                            <input id="one_year" type="radio" value="1 year" name="bob_about_loan_year" class="fourth-step-field bob-required bob_please_specify2_click_hide">
+                        </div>
+                        <div>
+                            <label for="two_years" class="bob_input_box_fields2">2 years</label>
+                            <input id="two_years" type="radio" value="2 years" name="bob_about_loan_year" class="fourth-step-field bob-required bob_please_specify2_click_hide">
+                        </div>
+                        <div>
+                            <label for="Three_years" class="bob_input_box_fields2">3 years</label>
+                            <input id="Three_years" type="radio" value="3 years" name="bob_about_loan_year" class="fourth-step-field bob-required bob_please_specify2_click_hide">
+                        </div>
+                        <div>
+                            <label for="four_years" class="bob_input_box_fields2">4 years</label>
+                            <input id="four_years" type="radio" value="4 years" name="bob_about_loan_year" class="fourth-step-field bob-required bob_please_specify2_click_hide">
+                        </div>
+                        <div>
+                            <label for="five_years" class="bob_input_box_fields2">5 years</label>
+                            <input id="five_years" type="radio" value="5 years" name="bob_about_loan_year" class="fourth-step-field bob-required bob_please_specify2_click_hide">
+                        </div>
+                        <div>
+                            <label for="other_years" class="bob_input_box_fields2">Other</label>
+                            <input id="other_years" type="radio" value="Other" name="bob_about_loan_year" class="fourth-step-field bob-required bob_please_specify2_click">
+                        </div>
+                    </div>
+                    <div class="bob-loan-request-multiple-steps-form-input-field bob_please_specify2 bob-display-hide">
+                        <label for="">Please Specify</label>
+                        <input type="text">
+                    </div>
+                    <div class="bob-fourth-error-msg">
+                    </div>
+                    <button type="submit" class="bob-next-btn" data-step="4">Next</button>
+                </form>
+            </div>
+
+
+            <!-- ============================= Loan Request Website ===================================
+         ===================================== Fifth Step ========================================
+         ====================================== 09/12/2022 ======================================== -->
+
+            <div id="bob-loan-request-fifth-step" class="bob-loan-request-multiple-steps  bob-step-5">
+                <form class="bob-loan-request-multiple-steps-form">
+                    <div class="bob-loan-request-multiple-steps-form-content">
+                        <h2>Thanks, dsgfd.</h2>
+                        <p>We like to keep our customers informed about the status of their loan. Please can we have
+                            your email address and phone number?</p>
+                    </div>
+                    <div class="bob-loan-request-multiple-steps-form-input-field">
+                        <label for="" class="bob_question_mark">Email Address <span class="bob_tooltip_div">We like to talk. Entering your email helps us stay in touch and conveniently answer any questions you have. 
+                        </span></label>
+                        <input type="email" class="fifth-step-field bob-required bob-email">
+                    </div>
+                    <div class="bob-loan-request-multiple-steps-form-input-field">
+                        <label for="" class="bob_question_mark">Mobile Number <span class="bob_tooltip_div">We ask for your contact number so our friendly advisors can always help you through the loan process. </span></label>
+                        <input type="text" class="fifth-step-field bob-required">
+                    </div>
+                    <div class="bob-loan-request-multiple-steps-form-input-field">
+                        <label for="">Home Phone Number</label>
+                        <input type="text">
+                    </div>
+                    <button type="submit" class="bob-next-btn" data-step="5">Next</button>
+                </form>
+            </div>
+
+            <!-- ============================= Loan Request Website ===================================
+         ====================================== Sixth Step ========================================
+         ====================================== 10/12/2022 ======================================== -->
+
+            
+
+            <!-- ============================= Loan Request Website ===================================
+         ===================================== Seventh Step =======================================
+         ====================================== 10/12/2022 ======================================== -->
+
+            <div id="bob-loan-request-seventh-step" class=" bob-loan-request-multiple-steps bob-step-6">
+                <form class="bob-loan-request-multiple-steps-form">
+                    <div class="bob-loan-request-multiple-steps-form-content">
+                        <h2>WHAT IS YOUR HOME/ HEAD OFFICE ADRESS ?</h2>
+                    </div>
+                    <div class="bob-loan-request-multiple-steps-form-input-field">
+                        <label for="">House Number</label>
+                        <input type="text" class="six-step-field bob-required">
+                    </div>
+                    <div class="bob-loan-request-multiple-steps-form-input-field">
+                        <label for="">House Name</label>
+                        <input type="text">
+                    </div>
+                    <div class="bob-loan-request-multiple-steps-form-input-field">
+                        <label for="">Street</label>
+                        <input type="text" class="six-step-field bob-required">
+                    </div>
+                    <div class="bob-loan-request-multiple-steps-form-input-field">
+                        <label for="">Town/City</label>
+                        <input type="text" class="six-step-field bob-required">
+                    </div>
+                    <div class="bob-loan-request-multiple-steps-form-input-field">
+                        <label for="">Postcode</label>
+                        <div class="bob-loan-request-postcode">
+                            <input type="text" class="six-step-field bob-required">
+                            <!-- <a href="" class="bob-loan-request-find-address">Find Address</a> -->
+                        </div>
+                        <!-- <a href="" class="enter-address-manually">Enter Address Manually</a> -->
+                    </div>
+                    <div class="bob-loan-request-multiple-steps-form-input-field six-step-field bob-required">
+                        <label for="" class="bob-when-did bob_question_mark">Do you own the property? <span class="bob_tooltip_div">This information helps us complete a soft search on your credit file. </span></label>
+                        <div class="bob-when-did-you-move-here">
+                            <div class="select-tag-parent">
+                                <select name="" id="">
+                                    <option value="">Select Option</option>
+                                    <option value="">Yes</option>
+                                    <option value="">No</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <button type="submit" class="bob-next-btn" data-step="6">Next</button>
+                </form>
+            </div>
+
+            <!-- ============================= Loan Request Website ===================================
+         ===================================== Eighth Step ========================================
+         ====================================== 09/12/2022 ======================================== -->
+
+            <div id="bob-loan-request-eighth-step" class=" bob-loan-request-multiple-steps bob-step-7">
+                <form class="bob-loan-request-multiple-steps-form">
+                    <div class="bob-loan-request-multiple-steps-form-content">
+                        <h2>What is your current office designation/position?</h2>
+                    </div>
+                    <div class="bob-loan-request-years-box-parent">
+                        <div>
+                            <label for="ceo" class="bob_input_box_fields3">CEO</label>
+                            <input id="ceo" type="radio" value="CEO" name="bob_employement_status" class="seven-step-field bob-required bob_please_specify3_click_hide">
+                        </div>
+                        <div>
+                            <label class="bob_input_box_fields3" for="Director">Director</label>
+                            <input id="Director" type="radio" value="Director" name="bob_employement_status" class="seven-step-field bob-required bob_please_specify3_click_hide">
+                        </div>
+                        <div>
+                            <label class="bob_input_box_fields3" for="Manager">Manager</label>
+                            <input id="Manager" type="radio" value="Manager" name="bob_employement_status" class="seven-step-field bob-required bob_please_specify3_click_hide">
+                        </div>
+                        <div>
+                            <label class="bob_input_box_fields3" for="FinanceOfficer">Finance Officer</label>
+                            <input id="FinanceOfficer" type="radio" value="Finance Officer" name="bob_employement_status" class="seven-step-field bob-required bob_please_specify3_click_hide">
+                        </div>
+                        <div>
+                            <label class="bob_input_box_fields3" for="Consultant">Consultant</label>
+                            <input id="Consultant" type="radio" value="Consultant" name="bob_employement_status" class="seven-step-field bob-required bob_please_specify3_click_hide">
+                        </div>
+                        <div>
+                            <label class="bob_input_box_fields3" for="ether_employee">Other</label>
+                            <input id="ether_employee" type="radio" value="Other" name="bob_employement_status" class="seven-step-field bob-required bob_please_specify3_click bob_please_specify3_click">
+                        </div>
+                    </div>
+                    <div class="bob-loan-request-multiple-steps-form-input-field bob_please_specify3">
+                        <label for="">Please Specify</label>
+                        <input type="text">
+                        
+                    </div>
+                    <div class="bob-seventh-error-msg">
+                    </div>
+                    <button type="submit" class="bob-next-btn" data-step="7">Next</button>
+                </form>
+            </div>
+
+            <!-- ============================= Loan Request Website ===================================
+         ===================================== Ninth Step ========================================
+         ====================================== 09/12/2022 ======================================== -->
+
+            <div id="bob-loan-request-ninth-step" class=" bob-loan-request-multiple-steps bob-step-8">
+                <form class="bob-loan-request-multiple-steps-form" method="post" action="">
+                    <div class="bob-loan-request-multiple-steps-form-content">
+                        <h2>What is your company's previous annual returns ?</h2>
+                        <p>So we can check your credit capacity.</p>
+                    </div>
+
+                    <div class="bob-loan-request-multiple-steps-form-input-field bob-loan-request-multiple-steps-form-input-field-ninth ">
+                        <div class="bob-add-inner-box">
+                            <input type="text" name="bob_monthly_weekly_salary" class="eight-step-field-text bob-required">
+                        </div>
+                    </div>
+                    <button type="submit" class="bob-next-btn" data-step="8">Next</button>
+                </form>
+            </div>
+
+            <!-- ============================= Loan Request Website ===================================
+         ===================================== Ninth Step ========================================
+         ====================================== 09/12/2022 ======================================== -->
+
+            <div id="bob-loan-request-tenth-step" class="bob-loan-request-multiple-steps bob-step-9">
+                <form class="bob-loan-request-multiple-steps-form">
+                    <div class="bob-loan-request-multiple-steps-form-content">
+                        <h2>fgsdfg, finally we need you to confirm a few things</h2>
+                        <p>So we can ensure your loan is affordable.</p>
+                    </div>
+                    <div class="main-wrapper">
+                        <div class="cutsom-checkbox-row">
+                            <input id="checkbox1" type="checkbox" name="bob_terms_conditions" class="nine-step-field bob-required">
+                            <label for="checkbox1">* I have read and I am happy to proceed with this loan request </label>
+                        </div>
+                        <div class="cutsom-checkbox-row">
+                            <input id="checkbox2" type="checkbox" name="bob_terms_conditions_fraud" class="nine-step-field bob-required">
+                            <label for="checkbox2">* I am happy for pacific worldwide capital pte ltd to share my information with, and obtain information from, credit reference agencies and other companies, for use in credit decisions and for fraud prevention. For further details on how we use your personal information</label>
+                        </div>
+                        <div class="cutsom-checkbox-row">
+                            <input id="checkbox3" type="checkbox" name="bob_terms_conditions_alter_loan">
+                            <label for="checkbox3">If I am unsuccessful for a loan with pacific worldwide capital pte ltd, I'd like to be considered for an alternative loan within the pacific worldwide capital pte ltd.</label>
+                        </div>
+                        <div class="cutsom-checkbox-row">
+                            <input id="checkbox4" type="checkbox" name="bob_terms_conditions_detail_passed">
+                            <label for="checkbox4">If I am unsuccessful for a loan with pacific worldwide capital pte ltd, I'd like my details passed on for consideration for a loan with an approved partner.</label>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="bob-final-step">Complete Application</button>
+                </form>
+            </div>
+
+
+
+
+
+
+
+
+            <div class="bob-loan-request-footer">
+                <div class="bob-loan-request-footer-left-img">
+                    <img src="assets/images/feefoplatinum-2022.png" alt="">
+                </div>
+                <div class="bob-loan-request-footer-right-img">
+                    <img src="assets/images/rating-trustpilot.png" alt="">
+                </div>
+            </div>
+        </div>
+
+        <!-- ========================== Successful Message ================================ -->
+
+        <div class="bob-loader-parent-container">
+            <div class="bob-loader-container">
+                <div class="bob-loader-img">
+                    <img src="assets/images/loading.gif" alt="">
+                </div>
+                <div class="bob-loader-circular-progress">
+                  <span class="bob-loader-progress-value">0%</span>
+                </div>
+                <span class="bob-loader-text">Loading...</span>
+              </div>
+        </div>
+
+    </section>
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
